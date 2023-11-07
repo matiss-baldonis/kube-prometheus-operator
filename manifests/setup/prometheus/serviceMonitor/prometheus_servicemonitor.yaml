@@ -4,7 +4,6 @@ metadata:
   name: prometheus-self
   labels:
     app: prometheus
-  namespace: argocd
 spec:
   endpoints:
   - interval: 5s
