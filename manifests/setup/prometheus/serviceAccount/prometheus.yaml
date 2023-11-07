@@ -1,6 +1,0 @@
-kind: ServiceAccount
-metadata:
-  labels:
-    app.kubernetes.io/instance: prometheus
-  name: prometheus
-  namespace: default
