@@ -13,7 +13,7 @@ spec:
       - '*'
   # Only permit applications to deploy to the guestbook namespace in the same cluster
   destinations:
-      - namespace: 'prometheus'
+      - namespace: 'argocd'
         server: https://kubernetes.default.svc
   clusterResourceWhitelist:
       - group: '*'
