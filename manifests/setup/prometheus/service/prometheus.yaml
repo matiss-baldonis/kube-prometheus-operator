@@ -11,5 +11,4 @@ spec:
     targetPort: web
   selector:
     app.kubernetes.io/name: prometheus
-  sessionAffinity: None
-  type: LoadBalancer
+  sessionAffinity: ClientIP
