@@ -18,7 +18,7 @@ spec:
   sources:
     - repoURL: git@github.com:matiss-baldonis/kube-prometheus-operator.git
       path: manifests/setup
-      targetRevision: HEAD
+      targetRevision: main
       directory:
           recurse: true
   destination:
