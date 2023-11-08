@@ -15,7 +15,7 @@ metadata:
 spec:
   project: default
   sources:
-    - repoURL: git@github.com:matiss-baldonis/kube-prometheus.git
+    - repoURL: git@github.com:matiss-baldonis/kube-prometheus-operator.git
       path: manifests/setup
       targetRevision: HEAD
       directory:
